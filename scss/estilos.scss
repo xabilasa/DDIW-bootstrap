@@ -1,0 +1,38 @@
+/* CSS Document */
+
+/* Variables de la carta de color y fuentes*/
+$principal: #009ab7;
+$secundario: #ccebf1;
+$blanco: #fff;
+$fuente: 1em;
+
+/* Definiciones generales tras reseteo. Se anidan todas las definiciones importantes de acuerdo a la jerarquía de
+maquetación de html. */
+
+html {
+	font-size: $fuente + 0.2;
+    body{
+        background-color:$blanco;
+        font-family: 'Arial', 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration-color: $principal;
+        color:$principal;
+        p {color:$principal; font-size: $fuente + 0.2;}
+        h1{color:$secundario; font-size: $fuente * 2;font-weight: bolder;}
+        a{color:inherit; text-decoration: none;}
+        a:hover{color:$secundario;text-decoration: underline;}
+    }
+}
+
+.a {margin:2rem; background-color: #009ab7;}
+.logo {max-width:120rem;}
+input {max-width:10em;background-color: $secundario; border-radius: 12pt; border: 0; color:$principal;}
+button {background-color: $blanco; border: none;}
+nav {
+    padding: 0;
+    &:hover{
+        background-color: $secundario
+    }
+    &a{
+        color:$principal;
+    }
+}

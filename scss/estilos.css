@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Variables de la carta de color y fuentes*/
+/* Definiciones generales tras reseteo. Se anidan todas las definiciones importantes de acuerdo a la jerarquía de
+maquetación de html. */
+html {
+  font-size: 1.2em;
+}
+html body {
+  background-color: #fff;
+  font-family: "Arial", "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration-color: #009ab7;
+  color: #009ab7;
+}
+html body p {
+  color: #009ab7;
+  font-size: 1.2em;
+}
+html body h1 {
+  color: #ccebf1;
+  font-size: 2em;
+  font-weight: bolder;
+}
+html body a {
+  color: inherit;
+  text-decoration: none;
+}
+html body a:hover {
+  color: #ccebf1;
+  text-decoration: underline;
+}
+
+.a {
+  margin: 2rem;
+  background-color: #009ab7;
+}
+
+.logo {
+  max-width: 120rem;
+}
+
+input {
+  max-width: 10em;
+  background-color: #ccebf1;
+  border-radius: 12pt;
+  border: 0;
+  color: #009ab7;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+}
+
+nav {
+  padding: 0;
+}
+nav:hover {
+  background-color: #ccebf1;
+}
+nava {
+  color: #009ab7;
+}/*# sourceMappingURL=estilos.css.map */
