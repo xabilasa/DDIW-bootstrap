@@ -30,11 +30,6 @@ html body a :hover {
   text-decoration: underline;
 }
 
-.a {
-  margin: 2rem;
-  background-color: #009ab7;
-}
-
 .logo {
   max-width: 120rem;
 }
@@ -50,4 +45,14 @@ input {
 button {
   background-color: #fff;
   border: none;
+}
+
+.icono {
+  height: 2.5em;
+  margin: auto 1rem;
+}
+
+.avatar {
+  width: 4em;
+  margin: auto 0.5em;
 }/*# sourceMappingURL=estilos.css.map */
